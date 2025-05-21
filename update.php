@@ -1,5 +1,5 @@
 <?php
-	include('conn.php');
+	include('connect.php');
 	if(isset($_POST['edit'])){
 		$id=$_POST['id'];
 		$firstname=$_POST['firstname'];
